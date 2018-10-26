@@ -1,1 +1,59 @@
-
+<!doctype html><!--注释-->
+<html>
+	<head>
+		<meta charset="UTF-8"><!--网页字符集-->
+		<!--网页三要素：title，keywords和description-->
+		<title>10.22 网页标题</title>
+		<meta name="keywords" content="个人主页">
+		<meta name="description" content="薛定谔">
+		
+		<style><!--层叠样式表-->
+			body
+			{
+				margin:0px;
+				background-color:green;
+			}
+			div
+			{
+				width:190px;
+				
+				background-color:white;
+				margin-top:100px;
+				margin-left:100px;
+			}
+			div ul{/*包含选择器 后代选择器*/
+				list-style:none;
+				padding:0px;
+			}
+			div ul li{
+				height:28px;
+				
+				text-indent:12px; <!--首行缩进-->
+				line-height:28px; <!--行高-->
+			}
+			div ul li a{
+				text-decoration:none;
+				color:#666;
+				font-size:14px;
+			}
+			div ul li:hover{
+				background-color:#ccc;
+			}
+			div ul li a:hover{
+				color:red;
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		<div>
+			<ul> <!--无序列表-->
+				<li>
+					<a href="">还没想好</a>
+				</li>
+				
+			</ul>
+		</div>
+	</body>
+</html>
